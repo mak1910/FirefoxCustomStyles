@@ -1,0 +1,6 @@
+/* Github : Hide weak password banner */
+@-moz-document domain(github.com) {
+  #js-flash-container {
+    display: none !important; 
+  }
+}
